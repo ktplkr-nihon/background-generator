@@ -1,3 +1,4 @@
+
 var css = document.querySelector("h3");
 var color1 = document.getElementById("color1");
 var color2 = document.getElementById("color2");
@@ -9,4 +10,4 @@ function getGradient()
   css.textContent = body.style.background + ";";
 }
 color1.addEventListener("input", getGradient);
-color2.addEventListener("input", getGradient)
+color2.addEventListener("input", getGradient);
